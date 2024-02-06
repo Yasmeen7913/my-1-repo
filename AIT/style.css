@@ -1,0 +1,1182 @@
+
+						.parentreal{
+							display:flex;
+							background-color:black;
+							color:white;
+							justify-content: space-between;
+							height:90px;
+							position:relative;
+                            
+							}
+						.names{
+							display:flex;
+							justify-content:space-around;
+							list-style-type:none;
+							padding:15px;
+                            font-size: 20px;
+							}
+						.div1{
+							flex:1;
+							}
+						.div2{
+							flex:2;
+							}
+						.image2{
+							background-image:url("Assets/angular_training.jpg");
+							height:500px;
+							
+							}
+						.image2-header{
+							padding-left:680px;
+							color:rgb(7, 6, 6);
+							padding-top:250px;
+                            font-size: 30px;
+							}
+                        .explore{
+                            font-size: 20px;
+                        }
+						.img1-header:hover{
+							cursor: pointer;
+							background-color:#3CC1CB ;
+							color:white;
+						}
+						.sub-divisions1:hover{
+							transform:scale(1.1,1.1);
+							background:linear-gradient(to right,#2c3e50, #2980b9);
+							color:white;
+						}
+						.sub-divisions1{
+							position:absolute;
+							display:flex;
+							gap:10px;
+							z-index:11;
+							top:570px;
+							left:70px;
+							height:80px;
+							width:300px;
+							border:2px solid #CAC9C9;
+							background-color:white;
+							z-index:10;
+						}
+						.sub-div1{
+							padding-top:20px;
+							padding-left:5px;
+							padding-bottom:10px;
+							
+						}
+						.sub-div2.hover{
+							color:white;
+						}
+						.sub-div2{
+							align-self:center;
+							color:#000080;
+							padding-left:15px;
+						}
+						.sub-divisions2:hover{
+							transform:scale(1.1,1.1);
+							background:linear-gradient(to right, #f7b733, #ff4700);
+							color:white;
+						}
+						.sub-divisions2{
+							position:absolute;
+							display:flex;
+							gap: 2px;
+							z-index:11;
+							top:570px;
+							left:480px;
+							height:80px;
+							width:300px;
+							border:2px solid #CAC9C9;
+							background-color:white;
+							z-index:10;
+						}
+						.sub-div3{
+							padding-top:20px;
+							padding-left:5px;
+							padding-bottom:10px;
+							
+						}
+						.sub-divisions3:hover{
+							transform:scale(1.1,1.1);
+							background:linear-gradient(to right,#2c3e50, #2980b9);
+							color:white;
+						}
+						.sub-div4{
+							align-self:center;
+							color:#000080;
+                            padding-left: 15px;
+						}
+						.sub-divisions3{
+							position:absolute;
+							display:flex;
+							gap:10px;
+							z-index:11;
+							top:570px;
+							left:900px;
+							height:80px;
+							width:300px;
+							border:2px solid #CAC9C9;
+							background-color:white;
+							z-index:10;
+						}	
+						.sub-div5{
+							padding-top:20px;
+							padding-left:5px;
+							padding-bottom:10px;
+							
+						}
+						.sub-div6{
+							align-self:center;
+							color:#000080;
+						}
+						.parentclass{
+							background-color:black;
+							position:relative;
+							bottom:0px;
+							top:0px;
+						}
+						.parentdiv1{
+							display:flex;
+							column-gap:20px;
+							background-color:black;
+							color:white;
+							height:270px;
+							padding-top:30px;
+						}
+						.parentdiv2{
+							background-color:black;
+							height:150px;
+						}
+						.item1{
+							flex:1;
+							background-color:black;
+							
+						}
+						.item2{
+							
+							padding-left:20px;
+						}	
+						.item3{
+							flex:1;
+							padding-left:30px;
+						}	
+						.item4{
+							flex:1;
+							padding-right:20px;
+						}		
+						.contacts{
+							display:flex;
+							color: white;
+							gap:120px;
+							position:fixed;
+							background-color:black;
+							left:8px;
+							bottom:0px;
+							z-index:12;
+							right:8px;
+							padding-left:200px;
+						}
+						.list{
+							display:flex;
+							color:white;
+							gap:30px;
+							position:absolute;
+							top:350px;
+							left:150px;
+							list-style-type:none;
+						}
+						.icon-list{
+							display:flex;
+							color:white;
+							list-style-type:none;
+							gap:15px;
+							padding-left:450px;
+						}
+						.list{
+							display:flex;
+							color:white;
+							gap:30px;
+							position:absolute;
+							top:350px;
+							left:150px;
+							list-style-type:none;
+						}
+						p{
+							padding-left:10px;
+						}
+						li{
+							list-style-type:none;
+						}
+						.explore{
+							margin-left:770px;
+							padding-bottom:10px;
+							padding-left:10px;
+							padding-right:10px;
+							padding-top:10px;
+							background-color:#ff4500;
+							color:white;
+						}	
+						.trending-courses{
+							font-size: 25px;
+							padding-left:50px;
+						}
+			
+						.parentclass2{
+							display:flex;
+                            justify-content: space-around;
+							margin-left:20px;
+							gap:20px;
+							margin-bottom:35px;
+						}
+						.angular {
+							font-family: "Roboto", sans-serif !important;
+							color: black;
+							box-shadow: 0px 0px 2px;
+							width: 230px;
+							height: 310px;
+							cursor: pointer;
+						}
+						.development {
+							background: linear-gradient(to right, #fc6767, #ec008c);
+							gap:25px;
+							display: flex;
+							color: white;
+							align-items:center;
+							padding:10px;
+						}
+						.paragraph{
+							padding:10px;
+							font-size:14px;
+						}
+						.review{
+							padding-left:10px;
+						}
+						.stars {
+							list-style-type: none;
+							color: yellow;
+							display: flex;
+							margin-left:0px;
+							gap:5px;
+						}
+						 .react {
+							font-family: "Roboto", sans-serif !important;
+							color: black;
+							box-shadow: 0px 0px 2px;
+							width: 230px;
+							height: 310px;
+							cursor: pointer;
+						}
+						.course {
+							background: linear-gradient(to left, #f2c94c, #f2994a);
+							gap:20px;
+							display: flex;
+							color: white;
+							align-items:center;
+							padding:5px;
+						}
+						.course1 {
+							background: linear-gradient(to right, #89fffd, #ef32d9);
+							gap:20px;
+							display: flex;
+							color: white;
+							align-items:center;
+							padding:5px;
+						}
+						.course2 {
+							background: linear-gradient(to right, lightgreen, deepskyblue);
+							gap:25px;
+							display: flex;
+							color: white;
+							align-items:center;
+							padding:5px;
+						}
+						.mean {
+							font-family: "Roboto", sans-serif !important;
+							color: black;
+							box-shadow: 0px 0px 2px;
+							width: 230px;
+							height: 310px;
+							cursor: pointer;
+						}
+						.mern {
+							font-family: "Roboto", sans-serif !important;
+							color: black;
+							box-shadow: 0px 0px 2px;
+							width: 230px;
+							height: 310px;
+							cursor: pointer;
+						}
+						.parentreal1{
+							margin-bottom:70px;
+						}
+						.parentclass3{
+							display:flex;
+                            justify-content: space-around;
+							margin-left:20px;
+							gap:20px;
+							margin-bottom:30px;
+						}
+						.web{
+							font-family: "Roboto", sans-serif !important;
+							color: black;
+							box-shadow: 0px 0px 2px;
+							width: 230px;
+							height: 310px;
+							cursor: pointer;
+						}
+						.development1{
+							background: linear-gradient(to right, #000046, #1cb5e0);
+							gap:20px;
+							display: flex;
+							color: white;
+							align-items:center;
+							padding:5px;
+							
+						}
+						.digital{
+							font-family: "Roboto", sans-serif !important;
+							color: black;
+							box-shadow: 0px 0px 2px;
+							width: 230px;
+							height: 310px;
+							cursor: pointer;
+						}
+						.course3{
+							background: linear-gradient(to right, #1c92d2, #f2fcfe);
+							gap: 40px;
+							display: flex;
+							color: white;
+							align-items:center;
+							padding:10px;
+						}
+						.course4{
+							background: linear-gradient(to right, #f2c94c, #f2994a);
+							gap:20px;
+							display: flex;
+							color: white;
+							align-items:center;
+							padding:5px;
+						}
+						.course5{
+							background: linear-gradient(to right, #fc6767, #ec008c);
+							gap:20px;
+							display: flex;
+							color: white;
+							align-items:center;
+							padding:5px;
+						}
+						.react-native{
+							font-family: "Roboto", sans-serif !important;
+							color: black;
+							box-shadow: 0px 0px 2px;
+							width: 230px;
+							height: 310px;
+							cursor: pointer;
+						}
+						.ionic{
+							font-family: "Roboto", sans-serif !important;
+							color: black;
+							box-shadow: 0px 0px 2px;
+							width: 230px;
+							height: 310px;
+							cursor: pointer;
+						}
+						.parentclass4{
+							display:flex;
+                            justify-content: space-around;
+							margin-left:20px;
+							gap:20px;
+							margin-bottom:60px;
+						}
+						.ui{
+							font-family: "Roboto", sans-serif !important;
+							color: black;
+							box-shadow: 0px 0px 2px;
+							width: 230px;
+							height: 310px;
+							cursor: pointer;
+						}
+						.development2{
+							background: linear-gradient(to right, #92fe9d, #00c9ff);
+							gap:20px;
+							display: flex;
+							color: white;
+							align-items:center;
+							padding:5px;
+							
+						}
+						.vuejs{
+							font-family: "Roboto", sans-serif !important;
+							color: black;
+							box-shadow: 0px 0px 2px;
+							width: 230px;
+							height: 310px;
+							cursor: pointer;
+						}
+						.course6{
+							background: linear-gradient(to right, blue, pink);
+							gap:20px;
+							display: flex;
+							color: white;
+							align-items:center;
+							padding:5px;
+						}
+						.course7{
+							background: linear-gradient(to right, #000046, #1cb5e0);
+							gap:20px;
+							display: flex;
+							color: white;
+							align-items:center;
+							padding:5px;
+						}
+						.course8{
+							background: linear-gradient(to right, #ff7e5f, #feb47b);
+							gap:20px;
+							display: flex;
+							color: white;
+							align-items:center;
+							padding:5px;
+						}
+						.wordpress{
+							font-family: "Roboto", sans-serif !important;
+							color: black;
+							box-shadow: 0px 0px 2px;
+							width: 230px;
+							height: 310px;
+							cursor: pointer;
+						}
+						.python{
+							font-family: "Roboto", sans-serif !important;
+							color: black;
+							box-shadow: 0px 0px 2px;
+							width: 230px;
+							height: 310px;
+							cursor: pointer;
+						}
+						.top1{
+							padding-left: 80px;
+                            font-size: 25px;
+						}
+						.discover-line1{
+							display:flex;
+							gap:40px;
+							margin-left:120px;
+							margin-bottom:20px;
+							align-items:center;
+							padding-top:20px;
+							text-align:center;
+						}
+						.devops{
+							padding-left:40px;
+							padding-right:40px;
+							padding-top:30px;
+							padding-bottom:30px;
+							box-shadow: 0px 0px 5px;
+							font-size:14px;
+						}
+						.devops:hover{
+							transform: scale(1.2);
+							cursor: pointer;
+						}
+						.laptops{
+							padding-left:40px;
+							padding-right:40px;
+							padding-top:30px;
+							padding-bottom:30px;
+							box-shadow: 0px 0px 5px;
+							font-size:14px;
+						}
+						.laptops:hover{
+							transform: scale(1.2);
+							cursor: pointer;
+						}
+						.mobile{
+							padding-left:45px;
+							padding-right:45px;
+							padding-top:30px;
+							padding-bottom:30px;
+							box-shadow: 0px 0px 5px;
+							font-size:14px;
+						}
+						.mobile:hover{
+							transform: scale(1.2);
+							cursor: pointer;
+						}
+						.digi-marketing{
+							padding-left:15px;
+							padding-right:15px;
+							padding-top:30px;
+							padding-bottom:30px;
+							box-shadow: 0px 0px 5px;
+							font-size:14px;
+						}
+						.digi-marketing:hover{
+							transform: scale(1.2);
+							cursor: pointer;
+						}
+						.program{
+							padding-left:15px;
+							padding-right:15px;
+							padding-top:22px;
+							padding-bottom:22px;
+							box-shadow: 0px 0px 5px;
+							font-size:14px;
+						}
+						.program:hover{
+							transform: scale(1.2);
+							cursor: pointer;
+						}
+						.datatypes{
+							padding-left:40px;
+							padding-right:40px;
+							padding-top:30px;
+							padding-bottom:30px;
+							box-shadow: 0px 0px 5px;
+							font-size:14px;
+						}
+						.datatypes:hover{
+							transform: scale(1.2);
+							cursor: pointer;
+						}
+						.discover-line2{
+							display:flex;
+							gap:40px;
+							margin-left:120px;
+							margin-bottom:40px;
+							align-items:center;
+							padding-top:20px;
+							text-align:center;
+						}
+						.software{
+							padding-left:15px;
+							padding-right:15px;
+							padding-top:30px;
+							padding-bottom:30px;
+							box-shadow: 0px 0px 5px;
+							font-size:14px;
+						}
+						.software:hover{
+							transform: scale(1.2);
+							cursor: pointer;
+						}
+						.cloud{
+							padding-left:15px;
+							padding-right:15px;
+							padding-top:30px;
+							padding-bottom:30px;
+							box-shadow: 0px 0px 5px;
+							font-size:14px;
+						}
+						.cloud:hover{
+							transform: scale(1.2);
+							cursor: pointer;
+						}
+						.cyber{
+							padding-left:25px;
+							padding-right:25px;
+							padding-top:30px;
+							padding-bottom:30px;
+							box-shadow: 0px 0px 5px;
+							font-size:14px;
+						}
+						.cyber:hover{
+							transform: scale(1.2);
+							cursor: pointer;
+						}
+						.artificial{
+							padding-left:6px;
+							padding-right:6px;
+							padding-top:30px;
+							padding-bottom:30px;
+							box-shadow: 0px 0px 5px;
+							font-size:14px;
+						}
+						.artificial:hover{
+							transform: scale(1.2);
+							cursor: pointer;
+						}
+						.python-1{
+							padding-left:46px;
+							padding-right:46px;
+							padding-top:30px;
+							padding-bottom:30px;
+							box-shadow: 0px 0px 5px;
+							font-size:14px;
+						}
+						.python-1:hover{
+							transform: scale(1.2);
+							cursor: pointer;
+						}
+						.bigdata{
+							padding-left:45px;
+							padding-right:45px;
+							padding-top:30px;
+							padding-bottom:30px;
+							box-shadow: 0px 0px 5px;
+							font-size:14px;
+						}
+						.bigdata:hover{
+							transform: scale(1.2);
+							cursor: pointer;
+						}
+						.reviews{
+							padding-left: 80px;
+							margin-bottom:30px;
+                            font-size: 30px;
+						}
+						.parentclass5{
+							display: flex;
+							justify-content: center;
+							gap: 50px;
+							margin-bottom:50px;
+						}
+						.review1{
+							height: 280px;
+							width: 260px;
+							box-shadow: 0px 0px 2px;
+						}
+						.review1-header{
+							list-style-type: none;
+							display: flex;
+							gap:100px;
+							background: linear-gradient(to right, #ff8362, #feb179);
+						}
+						.review1-heading{
+							margin-left: 10px;
+							border-radius: 50%;
+							color: orangered;
+							background-color: white;
+							font-size: 40px;
+						}
+						.review1-name{
+							margin-top:30px;
+							font-size: 15px;
+							color: white;
+						}
+						.review2{
+							height: 280px;
+							width: 260px;
+							box-shadow: 0px 0px 2px;
+						}
+						.review2-header{
+							list-style-type: none;
+							display: flex;
+							gap:10px;
+							background: linear-gradient(to right, #2496d4, #ebf8fc);
+						}
+						.review2-heading{
+							margin-left: 10px;
+							border-radius: 50%;
+							color: orangered;
+							background-color: white;
+							font-size: 40px;
+						}
+						.review2-name{
+							margin-top:30px;
+							font-size: 15px;
+							color: white;
+						}
+						.review3{
+							height: 280px;
+							width: 260px;
+							box-shadow: 0px 0px 2px;
+						}
+						.review3-header{
+							list-style-type: none;
+							display: flex;
+							gap:120px;
+							background: linear-gradient(to right, #01064b, #1bb0db);
+						}
+						.review3-heading{
+							margin-left: 10px;
+							border-radius: 50%;
+							color: orangered;
+							background-color: white;
+							font-size: 40px;
+						}
+						.review3-name{
+							margin-top:30px;
+							font-size: 15px;
+							color: white;
+						}
+						.review-content{
+							padding-left:10px;
+							padding-right:10px;
+						}
+						.view-all{
+							display: flex;
+							justify-content: center;
+							color:#007bff;
+							margin-bottom:30px;
+						}
+						.enroll{
+							background: linear-gradient(to right, #9bebfb, #0356d5);
+							padding-left: 70px;
+							padding-right: 10px;
+							padding-top: 20px;
+							padding-bottom: 20px;
+							margin-bottom:30px;
+							color:white;
+						}
+						.contact-us{
+							margin-left:450px;
+							font-size:20;
+							padding-left:20px;
+							padding-right: 10px;
+							padding-top:5px;
+							padding-bottom:5px;
+						}
+						.grow{
+							font-size:30;
+						}
+						.contact-us:hover{
+							cursor:pointer;
+							background-color:#ff4500;
+							color:white;
+						}
+						.AIT-edge{
+							padding-left: 80px;
+							margin-bottom:30px;
+						}
+						.AIT-edge-class{
+							display: flex;
+							justify-content: center;
+							gap:15x;
+							margin-bottom:30px;
+							padding-right:10px;
+							padding-left:15px;
+						}
+						.part1{
+							width:280px;
+							padding-top:20px;
+							padding-bottom:30px;
+						}
+						.part1:hover{
+							cursor: pointer;
+							transform: scale(1.1);
+							box-shadow: 0px 0px 10px;
+						}
+						.real{
+							color: #9cecfb;
+							width: fit-content;
+							margin-left: 115px;
+							font-size: 50px;
+							border-radius: 60%;
+						}
+						.time{
+							margin-left: 35px;
+							font-size: 18px
+						}
+						.live{
+							margin-left: 60px;
+						}
+						.part2{
+							width:280px;
+							padding-top:20px;
+							padding-bottom:30px;
+						}
+						.part2:hover{
+							cursor: pointer;
+							transform: scale(1.1);
+							box-shadow: 0px 0px 10px;
+						}
+						.infinity{
+							color: #ee0979;
+							width: fit-content;
+							margin-left: 105px;
+							font-size: 50px;
+							border-radius: 60%;
+						}
+						.time{
+							margin-left: 35px;
+							font-size: 18px
+						}
+						.live{
+							margin-left: 60px;
+						}
+						.part3{
+							width:280px;
+							padding-top:20px;
+							padding-bottom:30px;
+						}
+						.part3:hover{
+							cursor: pointer;
+							transform: scale(1.1);
+							box-shadow: 0px 0px 10px;
+						}
+						.watch{
+							color:#a47dc4;
+							width: fit-content;
+							margin-left: 100px;
+							font-size: 50px;
+							border-radius: 60%;
+						}
+						.time{
+							margin-left: 35px;
+							font-size: 18px
+						}
+						.live{
+							margin-left: 60px;
+						}
+						.part4{
+							width:280px;
+							padding-top:20px;
+							padding-bottom:30px;
+						}
+						.part4:hover{
+							cursor: pointer;
+							transform: scale(1.1);
+							box-shadow: 0px 0px 10px;
+						}
+						.graph{
+							color:#ffff1c;
+							width: fit-content;
+							margin-left: 115px;
+							font-size: 50px;
+							border-radius: 60%;
+						}
+						.time{
+							margin-left: 35px;
+							font-size: 18px
+						}
+						.live{
+							margin-left: 60px;
+						}
+					
+						.parentclass6{
+							box-shadow: 0px 0px 2px;
+							background:url("../Assets/Images/images/bg-for-top-1.png");
+							padding: 20px 0px;
+							margin-top:20px;
+							margin-bottom:30px;
+							padding-bottom:20px;
+							text-align: center;
+							color:#0c5397;
+						}
+						.TOP-1{
+							font-size: 40px;
+							
+						}
+						.top1-classes{
+							display:flex;
+							gap:15px;
+							padding:10px;
+						}
+						.Top1-more{
+							padding-bottom:15px;
+                            font-size: 30px;
+						}
+						.trending{
+							border: 1px;
+							width: 300px;
+							box-shadow: 0px 0px 2px;
+							text-align: center;
+							font-size: 50px;
+							padding: 10px 0px;
+							color: #0c5397;
+							background-color: white;
+						}
+						.trending:hover{
+							transform: scale(1.1);
+							color: white;
+							background: linear-gradient(to right, #2c4358, #297eb6);
+						}
+						.tied{
+							border: 1px;
+							width: 300px;
+							box-shadow: 0px 0px 2px;
+							text-align: center;
+							font-size: 50px;
+							padding: 10px 0px;
+							color: #0c5397;
+							background-color: white;
+						}
+						.tied:hover {
+							transform: scale(1.1);
+							background: linear-gradient(to right, #f7b532, #ff4a01);
+							color: white;
+						}
+						.interviews{
+							border: 1px;
+							width: 300px;
+							box-shadow: 0px 0px 2px;
+							text-align: center;
+							font-size: 50px;
+							padding: 10px 0px;
+							color: #0c5397;
+							background-color: white;
+						}
+						.interviews:hover{
+							transform: scale(1.1);
+							background: linear-gradient(to right, #2c4358, #297eb6);
+							color: white;
+						}
+						.student{
+							border: 1px;
+							width: 300px;
+							box-shadow: 0px 0px 2px;
+							text-align: center;
+							font-size: 50px;
+							padding: 10px 0px;
+							color: #0c5397;
+							background-color: white;
+						}
+						.student:hover{
+							transform: scale(1.1);
+							background: linear-gradient(to right, #f7b532, #ff4a01);
+							color: white;
+						}
+						.Trainers-form{
+							padding-left:50px;
+							margin-bottom:30px;
+                            font-size: 30px;
+						}
+						.row1{
+							display:flex;
+							flex:1;
+							gap:100px;
+							margin-left:10px;
+							margin-bottom:45px;
+						}
+						.cognizant{
+							width:200px;
+							
+						}
+						.cognizant:hover{
+							transform: scale(1.1);
+						}
+						.hcl{
+							width:200px;	
+						}
+						.hcl:hover{
+							transform: scale(1.1);
+						}
+						.infosys{
+							width:200px;
+						}
+						.infosys:hover{
+							transform: scale(1.1);
+						}
+						.accenture{
+							width:200px;
+						}
+						.accenture:hover{
+							transform: scale(1.1);
+						}
+						.row2{
+							display:flex;
+							flex:1;
+							gap:100px;
+							margin-left:10px;
+							margin-bottom:35px;
+						}
+						.oracle{
+							width:200px;				
+						}
+						.oracle:hover{
+							transform: scale(1.1);
+						}
+						.ibm{
+							width:200px;	
+						}
+						.ibm:hover{
+							transform: scale(1.1);
+						}
+						.amazon{
+							width:200px;	
+						}
+						.amazon:hover{
+							transform: scale(1.1);
+						}
+						.visa{
+							width:200px;	
+						}
+						.visa:hover{
+							transform: scale(1.1);
+						}
+						.row3{
+							display:flex;
+							flex:1;
+							gap:100px;
+							margin-left:10px;
+							margin-bottom:35px;
+						}
+						.flipcart{
+							width:200px;				
+						}
+						.flipcart:hover{
+							transform: scale(1.1);
+						}
+						.dell{
+							width:200px;	
+						}
+						.dell:hover{
+							transform: scale(1.1);
+						}
+						.AchieversIT-Process{
+							padding-left:80px;
+							margin-bottom:25px;
+                            font-size: 35px;
+						}
+						.AchieversIT-Process-image{
+							margin-left:160px;
+						}
+						.Latest-job-openings{
+							padding-left:80px;
+							margin-bottom:30px;
+                            font-size: 30px;
+						}
+						.opening1{
+							display: flex;
+							justify-content: space-evenly;
+							gap:20px;
+							margin-bottom:30px;
+							
+						}
+						.opening1:hover{
+							cursor:pointer;
+						}
+						.opening2{
+							display: flex;
+							justify-content: space-evenly;
+							gap:20px;
+							margin-bottom:30px;
+						}
+						.opening2:hover{
+							cursor:pointer;
+						}
+						.opening3{
+							display: flex;
+							justify-content: space-evenly;
+							gap:20px;
+							margin-bottom:40px;
+						}
+						.opening2:hover{
+							cursor:pointer;
+						}
+						.business{
+							padding-left:50px;
+							padding-top:5px;
+							padding-bottom:16px;
+							background-image:url("https://www.achieversit.com/assets/images/edureka-business.png");
+							margin-bottom:40px;
+							margin-left:30px;
+							margin-right:25px;
+							color:white;
+						}
+						.business-1{
+							display:flex;
+							gap:20px;
+						}
+						.business-2{
+							padding-top:36px;
+						}
+						.business-contact{
+							background-color:white;
+							color:black;
+							padding:15px;
+							margin-right:720px;
+						}
+						.business-contact:hover{
+							cursor: pointer;
+							background-color:#ff4500;
+							color:white;
+						}
+						.Our-corporate-clients{
+							padding-left:60px;
+							margin-bottom:50px;
+                            font-size: 30px;
+						}
+						.company-logo1{
+							display:flex;
+                            justify-content: space-evenly;
+							padding-left:10px;
+							padding-right:10px;
+							gap:50px;
+							margin-bottom:35px;
+						}
+						.company-logo2{
+							display:flex;
+                            justify-content: space-evenly;
+							padding-left:10px;
+							padding-right:10px;
+							gap:50px;
+							margin-bottom:40px;
+						}
+						.know-us-better{
+							background-image:url("https://www.achieversit.com/assets/images/know-us2.jpg");
+							height:fit-content;
+							padding:15px;
+							margin-bottom:10px;
+						}
+						.know{
+							text-align:center;
+							color:white;
+                            font-size: 20px;
+						}
+						.line{
+							color:white;
+							width:800px;
+						}
+						.interface{
+							color:whitesmoke;
+							padding-left:100px;
+						}
+						.looking{
+							padding-left:100px;
+							color: white;
+						}
+						.important1{
+							padding-left:50px;
+						}
+						.important2{
+							padding-left:35px;
+						}
+						.important2-paragraph{
+							padding-right:70px;
+						}
+						.impressed{
+							background-color:#a0e0ff54;
+							color:whitesmoke;
+							height:250px;
+							align-items:center;
+							width:900px;
+							margin-left:160px;
+							margin-right:10px;
+							padding-top:10px;
+						}
+						.impressed-heading{
+							padding-left:20px;
+						}
+						.impressed-sub-heading{
+							font-size:20px;
+						}
+						.table{
+							display: flex;
+							gap: 160px;
+							text-align:center;
+							padding-left:22px;
+						}
+						.classnew{
+							display: flex;
+							gap: 30px;
+							width: 500px;
+							height: 35px;
+							text-align:center;
+							padding-left:20px;
+						}
+						.contact-know-us-better{
+							display: flex;
+							gap: 10px;
+						}
+						.reach{
+							width:120px;
+							padding:10px;
+							background-color:#ff4500;
+						}
+						.reach:hover{
+							background-color:#1badd9;
+							cursor:pointer;
+						}
+					
+					
