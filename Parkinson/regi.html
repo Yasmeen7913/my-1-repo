@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title> Registaration Form</title>       
+        
+    <style>
+    *{box-sizing: border-box;
+}
+input[type=text], input[type=email], input[type=number], input[type=date], input[type=password], input[type=tel]
+{
+    width: 45%;
+    padding: 12px;
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 4px;
+    resize: vertical;
+    font-size: x-large;
+}
+textarea{
+    width:45%;
+    padding: 12px;
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=radio],input[type=checkbox]{
+    width: 1%;
+    padding-left: 0%;
+    border: 1px solid rgb(85, 78, 78);
+    border-radius: 4px;
+    resize: vertical;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:x-large;
+    font-style: normal;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+}
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+input[type=submit] {
+    background-color: transparent;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float:left;
+    font-size:x-large;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+input[type=submit]:hover {
+background-color:rgba(12, 65, 189, 0.395);
+}
+.container{
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 15%;
+}
+.col-10{
+    float: left;
+    width: 18%;
+    margin-top: 6px;
+    font-weight:bolder;
+    color:black;
+    
+}
+.col-90{
+    float: left;
+    width: 80%;
+    margin-top: 6px;
+    font-weight: 900;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.row1{
+    margin-left:1%;
+    
+}
+body{
+    background-image: url("Images/a3.jpg");
+}
+@media screen and (max-width: 600px) {
+    .col-10,.col-90,input[type=submit]{
+        width: 100%;
+        margin-top: 0;
+    }
+}
+label{
+    font-size:x-large;
+    font-weight: bolder;
+}
+    
+</style>
+</head>
+       
+    
+    <body>
+        <form name="custom" id="customform"  action="login.html">
+        <div class="row1">
+        <h1>PATIENT REGISTRATION FORM</h1>
+        </div>
+        <div class="container" >
+            <div class="row">
+                <div class="col-10">
+                    <label for="fname">First Name:</label>
+                </div>
+                <div class="col-90">
+                    <input type="text" id="fname" name="firstname">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="lname">Last Name:</label>
+                </div>
+                <div class="col-90">
+                    <input type="text" id="lname" name="lastname">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="email">Email:</label>
+                </div>
+                <div class="col-90">
+                    <input type="email" id="email" name="email">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="password">Password:</label>
+                </div>
+                <div class="col-90">
+                    <input type="password" id="pass" name="password" maxlength="8">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="mobile">Mobile:</label>
+                </div>
+                <div class="col-90">
+                    <input type="tel" id="mobile" name="mobile" placeholder=>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="gender" required>Gender:</label>
+                </div>
+                <div class="col-90" style="margin-top:14px;">
+                    <input type="radio" id="male" name="gender" value="male"/>Male
+                    <input type="radio" id="female" name="gender" value="female"/>Female
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="dob">Date Of Birth:</label>
+                </div>
+                <div class="col-90">
+                    <input type="Date" id="dob" name="dob">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="marital" required>Marital Status:</label>
+                </div>
+                <div class="col-90" style="margin-top:16px;">
+                    <input type="radio" id="yes" name="sss" value="yes"/>Yes
+                    <input type="radio" id="no" name="sss" value="no"/>No
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="address">Address:</label>
+                </div>
+                <div class="col-90">
+                    <textarea name="address" id="address" cols="20" rows="5"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="gender" required>Taking any medications currently:</label>
+                </div>
+                <div class="col-90" style="margin-top:18px;">
+                    <input type="radio" id="yes" name="nnn" value="yes"/>Yes
+                    <input type="radio" id="no" name="nnn" value="no"/>No
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="file" required>If Yes, Provide Medical History:</label>
+                </div>
+                <div class="col-90" style="margin-top:18px;">
+                    <input type="file" id="file" name="file" value="file" onchange=" return filevalidation()"/>
+                </div>
+                <div id="imagepreview"></div>
+            </div>                 
+            <div class="row"><br/>
+                <input type="submit" value="SUBMIT" onsubmit="return SaveDetails()" >
+            </div> 
+            <div class="row"><br/><br/>
+                <h3>Already Registered! <a href="login.html">Sign-In</a></h3>
+            </div> 
+        </div>  
+    </form>
+
+
+
+<script>
+    //file
+    function filevalidation(){
+        var fileinput=document.getElementById('file');
+        var filepath=fileinput.value;
+        var allowedextensions=/(\.jpg|\.jpeg|\.png|\.doc|\.docx|\.pdf|\.txt)$/i;
+
+        if(!allowedextensions.exec(filepath)){
+            alert('Invalid file Type');
+            fileinput.value='';
+            return false;
+        }
+        else{
+            if(fileinput.files && fileinput.files[0]){
+                var reader=new FileReader();
+                reader.onload=function(e){
+                    document.getElementById('imagepreview').innerHTML='<img src="'+e.target.result+'"/>';
+                };
+                reader.readAsDataURL(fileinput.files[0]);
+            }
+        }
+    }
+</script>
+
+
+<script>
+
+function SaveDetails() {
+    validatecontrols();
+}
+
+
+    function validatecontrols(){
+        //FirstName
+    var fname = document.getElementById("fname")
+    if (fname.value == "") {
+        window.alert("please enter your first name");
+        fname.focus();
+        return false;
+    }
+
+    }
+
+    //LastName
+    var lname = document.getElementById("lname")
+    if (lname.value == "") {
+        window.alert("please enter your last name");
+        lname.focus();
+        return false;
+    }
+
+    //Email
+    var email = document.getElementById("email")
+    if (email.value == "") {
+        window.alert("please enter your valid email Id");
+        email.focus();
+        return false;
+    }
+
+    //Password
+    var pass = document.getElementById("pass")
+    if (pass.value == "") {
+        window.alert("please enter correct password");
+        pass.focus();
+        return false;
+    }
+
+    //Mobile
+    var mobile = document.getElementById("mobile")
+    if (mobile.value == "") {
+        window.alert("please enter your 10 digits mobile no.");
+        mobile.focus();
+        return false;
+    }
+    
+    
+    //Gender   
+    var gender = document.querySelector('input[name="gender"]:checked');
+    if (gender == null) {
+        window.alert("Gender required!");
+        gender.focus();
+        return false;
+    }
+
+    //Dob
+    var dob = document.getElementById("dob")
+    if (dob.value == "") {
+        window.alert("please enter your Date of Birth");
+        dob.focus();
+        return false;
+    }
+    
+    
+    //Marital
+    var marital = document.querySelector('input[name="sss"]:checked');
+    if (marital === null) {
+        window.alert("Status required!");
+        marital.focus();
+        return false;
+    }
+
+    //Address
+    var address = document.getElementById("address")
+    if (address.value == "") {
+        window.alert("please enter your address details");
+        address.focus();
+        return false;
+    }
+
+    //History   
+    var history = document.querySelector('input[name="nnn"]:checked');
+    if (history === null) {
+        window.alert("required!");
+        history.focus();
+        return false;
+    }
+</script>
+
+
+
+
+
+</body>
+</html>
