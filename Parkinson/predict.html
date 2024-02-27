@@ -1,0 +1,226 @@
+{% load static %}
+<html>
+  <head>
+      <title>Parkinson</title>
+      <style>
+      html, body
+      {
+      min-height: 100%;
+      background:url({% static 'images/3934.jpg' %});
+      background-size:cover;
+      }
+      body, div, form, input, select, textarea, label {
+      padding: 0;
+      margin: 0;
+      outline: none;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 14px;
+      color: #666;
+      line-height: 20px;
+      }
+      h1 {
+      position: absolute;
+      margin:0;
+      font-size: 60px;
+      color: green;
+      line-height: 83px;
+      top:50px;
+      }
+      legend {
+      padding: 10px;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 18px;
+      color: white;
+      background-color: #1c87c9;
+      border-radius:5px;
+      }
+      .testbox {
+      display: flex;
+      padding: 20px;
+      }
+      form {
+      width: 100%;
+      padding: 20px;
+      border-radius: 10px;
+      background: #FFFAFA;
+      box-shadow: 0 0 8px #006622;
+      }
+      .banner {
+      position: relative;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+      .banner::after {
+      content: "";
+      background-color: rgba(0, 0, 0, 0.2);
+      border-radius:10px;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      }
+      input, select, textarea {
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      }
+      input {
+      width: calc(100% - 10px);
+      padding: 5px;
+      }
+      .item {
+      position: relative;
+      margin: 10px 0;
+      }
+       .item input:hover, .item select:hover, .item textarea:hover {
+      border: 1px solid transparent;
+      box-shadow: 0 0 3px 0  #006622;
+      color: #006622;
+      }
+      .colums {
+      display:flex;
+      justify-content:space-between;
+      flex-direction:row;
+      flex-wrap:wrap;
+      }
+      .colums div {
+      width:48%;
+      }
+
+      .btn-block {
+      margin-top: 10px;
+      text-align: center;
+      }
+      button {
+      width: 150px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background:  #1c87c9;
+      font-size: 16px;
+      color: #fff;
+      cursor: pointer;
+      }
+      button:hover {
+      background:  #0692e8;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="testbox">
+    <form  method="post">
+      <div class="banner">
+        <h1>Parkinson Disease Prediction</h1>
+      </div>
+      <br/>
+      <fieldset>
+        <legend>Prediction Data</legend>
+        
+{% csrf_token %}
+        <div class="colums">
+          <div class="item">
+            <label><b>MDVP:Fo(Hz)</b></label>
+            <input type="text" name="Fo(Hz)" placeholder="{{fo}}" readonly>
+          </div>
+          <div class="item">
+             <label><b>MDVP:Fhi(Hz)</b></label>
+            <input type="text"  name="Fhi(Hz)"placeholder="{{fhi}}" readonly>
+          </div>
+          <div class="item">
+            <label><b>MDVP:Flo(Hz)</b></label>
+            <input type="text" placeholder="{{flo}}" readonly>
+          </div>
+          <div class="item">
+            <label><b>MDVP:Jitter(%)</b></label>
+            <input type="text" name="Jitter(%)" placeholder="{{ji}}" readonly>
+          </div>
+          <div class="item">
+            <label><b>MDVP:Jitter(Abs)</b></label>
+            <input type="text" name="Jitter(Abs)" placeholder="{{abs}}" readonly>
+          </div>
+          <div class="item">
+           <label><b>MDVP:RAP</b></label>
+            <input type="text" name="RAP" placeholder="{{rap}}" readonly>
+          </div>
+          <div class="item">
+            <label><b>MDVP:PPQ</b></label>
+            <input type="text" name="PPQ" placeholder="{{ppq}}" readonly>
+          </div>
+          <div class="item">
+           <label><b>Jitter:DDP</b></label>
+            <input type="text" name="DDP" placeholder="{{ddp}}" readonly>
+          </div>
+          <div class="item">
+           <label><b>MDVP:Shimmer</b></label>
+            <input type="text" name="Shimmer" placeholder="{{shimmer}}" readonly>
+          </div>
+          <div class="item">
+           <label><b>MDVP:Shimmer(dB)</b></label>
+            <input type="text" name="Shimmer(dB)" placeholder="{{shimmerdb}}" readonly>
+          </div>
+          <div class="item">
+           <label><b>MDVP:APQ</b></label>
+            <input type="text" name="APQ" placeholder="{{apq}}" readonly>
+          </div>
+          <div class="item">
+           <label><b>Shimmer:DDA</b></label>
+            <input type="text" name="DDA" placeholder="{{dda}}" readonly>
+          </div>
+          <div class="item">
+           <label><b>NHR</b></label>
+            <input type="text" name="NHR" placeholder="{{nhr}}" readonly>
+          </div>
+          <div class="item">
+           <label><b>HNR</b></label>
+            <input type="text" name="HNR" placeholder="{{hnr}}" readonly>
+          </div>
+          <div class="item">
+           <label><b>RPDE</b></label>
+            <input type="text" name="RPDE" placeholder="{{rpde}}" readonly>
+          </div>
+          <div class="item">
+           <label><b>DFA</b></label>
+            <input type="text" name="DFA" placeholder="{{dfa}}" readonly>
+          </div>
+          <div class="item">
+           <label><b>spread1</b></label>
+            <input type="text" name="spread1" placeholder="{{spread1}}" readonly>
+          </div>
+          <div class="item">
+           <label><b>spread2</b></label>
+            <input type="text" name="spread2" placeholder="{{spread2}}" readonly>
+          </div>
+           <div class="item">
+           <label><b>D2</b></label>
+            <input type="text" name="D2" placeholder="{{d2}}" readonly>
+          </div>
+           <div class="item">
+           <label><b>PPE</b></label>
+            <input type="text" name="PPE" placeholder="{{ppe}}" readonly>
+          </div>
+           <div class="item">
+           <label><b>Shimmer:APQ3
+          </b></label>
+            <input type="text" name="APQ3" placeholder="{{apq3}}" readonly>
+          </div>
+           <div class="item">
+           <label><b>Shimmer:APQ5
+          </b></label>
+            <input type="text" name="APQ5" placeholder="{{apq5}}" readonly>
+          </div>
+          <div class="item">
+            <label><b>Parkinson Disease Predict Output
+           </b></label>
+             <input type="text" name="APQ5" placeholder="{{pred}}" readonly>
+           </div>
+           
+      </fieldset>
+      <div class="btn-block">
+        <button type="submit"><a href="login">Back</a></button>
+        </div>
+       
+    </form>
+    </div>
+  </body>
+</html>
